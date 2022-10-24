@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--base-color);
+    color: var(--accent-color);
+    font-family: var(--base-font);
+}
+
+h1 {
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+    font-size: 2em;
+}
+
+p {
+    color: var(--accent-color);
+    font-family: var(--accent-font);
+    font-size: 1em;
+    text-align: center;
+}
+
+.menu ul li ul {
+    /* Drop-down menuen */
+    display: none;
+    flex-direction: column;
+}
+
+.menu ul li:hover ul {
+    display: flex;
+    position: absolute;
+    border: 1px solid white;
+    color: white;
+    background-color: azure;
+}

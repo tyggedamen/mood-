@@ -24,10 +24,20 @@ p {
     text-align: center;
 }
 
+.menu {
+    color: var(--accent-color);
+}
+
+.menu ul li a {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
 .menu ul li ul {
     /* Drop-down menuen */
     display: none;
     flex-direction: column;
+    color: white;
 }
 
 .menu ul li:hover ul {
@@ -35,5 +45,5 @@ p {
     position: absolute;
     border: 1px solid white;
     color: white;
-    background-color: azure;
+    background-color: rgb(157, 169, 169);
 }

@@ -47,3 +47,10 @@ p {
     color: white;
     background-color: rgb(157, 169, 169);
 }
+
+@media screen and(min-width: 900px) {
+    .item-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+}
